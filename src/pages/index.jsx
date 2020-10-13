@@ -12,7 +12,7 @@ export default function IndexPage(props) {
       <Heading>Welcome!</Heading>
       <div className="mb-6 py-12 prose prose-lg">
         <p>
-          This is an <a href="https://www.11ty.dev/">11ty</a> demo,
+          This is an <a href="https://www.11ty.dev/">11ty</a> demo,{` `}
           <a href="https://github.com/SimeonGriggs/11ty-react-demo">
             see the repo
           </a>
