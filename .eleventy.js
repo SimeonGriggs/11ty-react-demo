@@ -27,11 +27,7 @@ module.exports = function (eleventyConfig) {
     },
   });
 
-  
   eleventyConfig.addWatchTarget("./src/styles/layout.css");
-  // eleventyConfig.addPassthroughCopy({ "./src/styles/layout.css": "./layout.css" });
-
-  console.log(process.env.NODE_ENV);
 
   return {
     dir: {
