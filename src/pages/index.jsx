@@ -1,4 +1,5 @@
 import React from 'react'
+
 import ParentLayout from '../layouts/ParentLayout'
 import Nav from '../components/Nav'
 import Heading from '../components/Heading'
@@ -10,6 +11,7 @@ export default function IndexPage(props) {
   return (
     <ParentLayout>
       <Heading>Welcome!</Heading>
+
       <div className="mb-6 py-12 prose prose-lg">
         <p>
           This is an <a href="https://www.11ty.dev/">11ty</a> demo,{` `}
