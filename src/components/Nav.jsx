@@ -20,7 +20,7 @@ const Nav = ({ nav, currentUrl }) => {
               : `text-blue-500 hover:text-blue-700`
           }`}
           key={item.name}
-          href={`/${item.name}`}
+          href={`/${item.name}/`}
         >
           {item.name}
         </a>
